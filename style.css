@@ -1,0 +1,233 @@
+/* Resetando o estilo padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #111;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+header .logo h1 {
+    color: #d61f20;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #d61f20;
+}
+
+/* Home */
+.home {
+    text-align: center;
+    padding: 50px 20px;
+    background: #181818;
+}
+
+.home h2 {
+    font-size: 2.5em;
+    color: #d61f20;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 1.5em;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+/* Produtos */
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+    background: #242424;
+}
+
+.produto {
+    background-color: #333;
+    border: 2px solid #d61f20;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.produto:hover {
+    transform: scale(1.05);
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+}
+
+.produto h3 {
+    font-size: 1.8em;
+    color: #d61f20;
+    margin: 20px 0;
+}
+
+.produto p {
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+.produto .preco {
+    font-size: 1.5em;
+    color: #d61f20;
+    margin: 10px 0;
+}
+
+.produto .botao {
+    background-color: #d61f20;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.produto .botao:hover {
+    background-color: #f44336;
+}
+
+/* Sobre */
+.sobre {
+    text-align: center;
+    padding: 50px 20px;
+    background: #181818;
+}
+
+.sobre h2 {
+    font-size: 2.5em;
+    color: #d61f20;
+    margin-bottom: 20px;
+}
+
+.sobre p {
+    font-size: 1.5em;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+/* Contato */
+.contato {
+    text-align: center;
+    padding: 50px 20px;
+    background: #242424;
+}
+
+.contato h2 {
+    font-size: 2.5em;
+    color: #d61f20;
+    margin-bottom: 20px;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato label,
+.contato input,
+.contato textarea {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+    width: 300px;
+}
+
+.contato input[type="submit"] {
+    background-color: #d61f20;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contato input[type="submit"]:hover {
+    background-color: #f44336;
+}
+
+/* Login */
+.login {
+    text-align: center;
+    padding: 50px 20px;
+    background: #181818;
+}
+
+.login h2 {
+    font-size: 2.5em;
+    color: #d61f20;
+    margin-bottom: 20px;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+    width: 300px;
+}
+
+.login input[type="submit"] {
+    background-color: #d61f20;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login input[type="submit"]:hover {
+    background-color: #f44336;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+    font-size: 1.2em;
+}
+
